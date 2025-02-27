@@ -6,6 +6,7 @@ M140 S{material_bed_temperature_layer_0}
 M104 S{material_print_temperature_layer_0}
 G28 O ; Home all untrusted axes
 G28 ;Home
+C29 L25.00 R195.00 F25.00 B195.00 X5 Y5 T50
 G29 P1 
 ;G29 S0
 ;G29 A
