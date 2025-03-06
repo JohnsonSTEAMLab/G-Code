@@ -1,0 +1,3 @@
+diskutil list
+diskutil unmount /dev/disk5s1              
+sudo newfs_msdos -b 4096 /dev/disk5s1
